@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen box-border m-0 p-0">
-      <div className='text-left w-full h-full mx-auto max-w-2xl relative main-content'>
-        <h1 className='text-3xl'>Hi 👋 I'm Alex. Indie Hacker. Music Passionate
+      <div className='text-left w-full h-full mx-auto max-w-4xl relative main-content'>
+        <h1 className='text-4xl'>Hi 👋 I'm Alex. Indie Hacker. Music Passionate
           <div className='group inline-block relative'>
             <Image className='rounded-full mx-1 align-middle img-1' src="/img/music.png" alt="[AOMIX] EP.23 Playlist to Warm Up to While Drinking Whiskey by DJ Wow" width={80} height={43} />
             <iframe
@@ -49,37 +49,37 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className='w-full px-4 mt-10 h-full mx-auto max-w-2xl relative'>
+      <div className='w-full px-4 mt-12 h-full mx-auto max-w-4xl relative  text-xl'>
         <ul className='divide-y divide-gray-200'>
-          <li className='py-5'>
+          <li className='py-6'>
             <h2>
               <Image className='rounded-full align-middle mr-2' src="/img/logo-uncover.png" alt='uncoverUX logo' width={25} height={25}/>
               <Link href="https://uncoverUX.club" className='hover:text-orange-400'>uncoverUX</Link>
             </h2>
-            <p className='text-zinc-500'>UX knowledge sharing. The tools and resources creators need <br></br>to bring their ideas to fruition. </p>
+            <p className='text-zinc-500 pt-1'>UX knowledge sharing. Products that will make your UX process easier </p>
           </li>
-          <li className='py-5'>
+          <li className='py-6'>
             <h2>🥧
               <Link href="https://getbaked.design" className='hover:text-orange-400'> GetBaked</Link>
             </h2>
-            <p className='text-zinc-500'>Low-price design services for indie hackers.</p>
+            <p className='text-zinc-500 pt-1'>Low-price design services for indie hackers.</p>
           </li>
-          <li className='py-5'>
+          <li className='py-6'>
             <h2>
               <Image className='rounded-full align-middle mr-2' src="/img/logo-indie.png" alt='Indie News Logo' width={25} height={25}/>
               <Link href="https://indienews.club" className='hover:text-orange-400'>Indie News</Link>
             </h2>
-            <p className='text-zinc-500'>Official #buildinpublic newspaper. Sarcastic dose of updated <br></br>from indie community.</p>
+            <p className='text-zinc-500 pt-1'>Official #buildinpublic newspaper.</p>
           </li>
         </ul>
       </div>
 
 
-      <footer class="bg-white w-full mx-auto max-w-2xl dark:bg-gray-800 absolute bottom-0">
+      <footer class="bg-white w-full mx-auto max-w-4xl dark:bg-gray-800 absolute bottom-0">
           <div class="w-full p-4 md:flex md:items-center md:justify-between">
-            <span class="text-xs text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Alex Szczurek</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Alex Szczurek</a>. All Rights Reserved.
           </span>
-          <ul class="flex flex-wrap items-center mt-3 text-xs font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
               <li>
                   <a href="https://twitter.com/aliszu" class="mr-4 hover:underline md:mr-6 ">Twitter</a>
               </li>
