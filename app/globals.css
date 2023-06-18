@@ -2,26 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'Almarena-Regular';
+  src: url('/AlmarenaDisplayRegular.otf') format('opentype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Almarena-Light';
+  src: url('/AlmarenaDisplayLight.otf') format('opentype');
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Almarena-Light', sans-serif;
+}
+
+/*.img-1:hover {
+  cursor: pointer;
+  width: 100px !important;
+  height: 30px !important;
+}*/
+
+.img-1 {
+  transition: transform 0.3s;
+}
+
+.img-1:hover {
+  transform: scale(1.1);
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip-content {
+  position: absolute;
+  top: -100%; /* Adjust the positioning of the tooltip content */
+  left: 50%;
+  transform: translateX(-50%) translateY(18%)!important;
+  width: 300px;
+  height: 515px;
+  display: none;
+  pointer-events: none;
+}
+
+.tooltip-container:hover .tooltip-content {
+  display: block;
+  pointer-events: auto;
 }
