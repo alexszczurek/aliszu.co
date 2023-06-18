@@ -12,6 +12,17 @@
   src: url('/AlmarenaDisplayLight.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Almarena-Bold';
+  src: url('/AlmarenaDisplayBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Almarena-Light-normal';
+  src: url('/AlmarenaLight.otf') format('opentype');
+}
+
+
 body {
   font-family: 'Almarena-Light', sans-serif;
 }
@@ -48,4 +59,24 @@ body {
 .tooltip-container:hover .tooltip-content {
   display: block;
   pointer-events: auto;
+}
+
+img {
+  display: inline;
+}
+
+.iframe-1 {
+  left: -100px;
+}
+
+.main-content h1 {
+  line-height: 2.6rem;
+}
+
+ul li p {
+  font-family: 'Almarena-Light-normal';
+}
+
+ul li h2 {
+  font-family: 'Almarena-Regular';
 }
