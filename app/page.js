@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen box-border m-0 p-0">
-      <div className='text-left w-full h-full mx-auto max-w-4xl relative main-content'>
+    <main className="flex flex-col flex-grow items-center justify-center min-h-screen box-border m-0 p-0">
+      <div className='text-left w-full h-full mx-auto max-w-4xl relative main-content px-4 sm:px-8'>
         <h1 className='text-4xl'>Hi 👋 I'm Alex. Indie Hacker. Music Passionate
           <div className='group inline-block relative'>
             <Image className='rounded-full mx-1 align-middle img-1' src="/img/music.png" alt="[AOMIX] EP.23 Playlist to Warm Up to While Drinking Whiskey by DJ Wow" width={80} height={43} />
@@ -49,7 +49,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className='w-full px-4 mt-12 h-full mx-auto max-w-4xl relative  text-xl'>
+      <div className='w-full px-4 mt-12 h-full mx-auto max-w-4xl relative text-xl px-4 sm:px-8'>
         <ul className='divide-y divide-gray-200'>
           <li className='py-6'>
             <h2>
