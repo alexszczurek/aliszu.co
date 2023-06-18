@@ -7,7 +7,7 @@ export default function Home() {
       <div className='text-left w-full h-full mx-auto max-w-2xl relative main-content'>
         <h1 className='text-3xl'>Hi 👋 I'm Alex. Indie Hacker. Music Passionate
           <div className='group inline-block relative'>
-            <Image className='rounded-full mx-1 align-middle img-1' src="/img/music.png" alt="Dan's profile picture" width={80} height={43} />
+            <Image className='rounded-full mx-1 align-middle img-1' src="/img/music.png" alt="[AOMIX] EP.23 Playlist to Warm Up to While Drinking Whiskey by DJ Wow" width={80} height={43} />
             <iframe
               className="z-10 iframe-1 absolute top-12 opacity-0 group-hover:opacity-100 rounded-xl"
               width="300"
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <br></br>Rap, R&B, Soul
           <div className='group inline-block relative'>
-            <Image className='vertical-align-middle rounded-full mx-1 align-middle img-1' src="/img/music-2.jpg" alt="Dan's profile picture" width={80} height={43} />
+            <Image className='vertical-align-middle rounded-full mx-1 align-middle img-1' src="/img/music-2.jpg" alt="Pa Salieu - Mista (Freestyle)" width={80} height={43} />
             <iframe 
               className="z-10 iframe-1 absolute top-12 opacity-0 group-hover:opacity-100 rounded-xl "
               src="https://open.spotify.com/embed/track/1569dTes74Sj1qQvEG6xvC?utm_source=generator&theme=0" 
@@ -73,6 +73,23 @@ export default function Home() {
           </li>
         </ul>
       </div>
+
+
+      <footer class="bg-white w-full mx-auto max-w-2xl dark:bg-gray-800 absolute bottom-0">
+          <div class="w-full p-4 md:flex md:items-center md:justify-between">
+            <span class="text-xs text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Alex Szczurek</a>. All Rights Reserved.
+          </span>
+          <ul class="flex flex-wrap items-center mt-3 text-xs font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+              <li>
+                  <a href="https://twitter.com/aliszu" class="mr-4 hover:underline md:mr-6 ">Twitter</a>
+              </li>
+              <li>
+                  <a href="https://uncover.gumroad.com" class="mr-4 hover:underline md:mr-6">Gumroad shop</a>
+              </li>
+          </ul>
+          </div>
+      </footer>
+
     </main>
   );
 }
