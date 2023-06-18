@@ -33,7 +33,7 @@ export default function Home() {
               loading="lazy">
             </iframe>
           </div>
-          especially on vinyl records. <br></br>I don’t own an app, but I do other
+          especially on vinyl records. <br></br> I don’t own an app, but I do other
           <div className='group inline-block relative'>
             <Image className='vertical-align-middle rounded-full mx-1 align-middle img-1' src="/img/music-3.JPG" alt="Alex's with Grubson vinyl, hiding face" width={80} height={43} />
             <iframe  

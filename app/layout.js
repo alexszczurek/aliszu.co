@@ -10,6 +10,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="img/favicon.ico" />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content="img/ogIMG.png" />
       </head>
       <body>{children}</body>
     </html>
