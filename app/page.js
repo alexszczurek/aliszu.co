@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
 
-      <footer class="bg-white w-full mx-auto max-w-4xl dark:bg-gray-800 absolute bottom-0">
+      <footer class="bg-white w-full mx-auto max-w-4xl absolute bottom-0">
           <div class="w-full p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Alex Szczurek</a>. All Rights Reserved.
           </span>
