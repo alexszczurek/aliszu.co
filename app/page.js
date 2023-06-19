@@ -71,13 +71,27 @@ export default function Home() {
             </h2>
             <p className='text-zinc-500 pt-1'>Official #buildinpublic newspaper.</p>
           </li>
+          <li className='py-6'>
+            <h2>
+              <Image className='rounded-full align-middle mr-2' src="/img/logo-baked.png" alt='Baked Studio Logo' width={25} height={25}/>
+              <Link href="https://baked.design" className='hover:text-orange-400'>Baked Design</Link>
+            </h2>
+            <p className='text-zinc-500 pt-1'>Accelerate UI Design, Optimize User Experience, and Drive Business Success with Our Customized Framework and Expert Services</p>
+          </li>
+          <li className='py-6'>
+            <h2>
+              <Image className='rounded-full align-middle mr-2' src="/img/logo-opt.png" alt='OPT - color picker Logo' width={25} height={25}/>
+              <Link href="https://chrome.google.com/webstore/detail/opt-colour-picker/clhmnfanfdeoehleeeklflcdcjedefpd?hl=en-US" className='hover:text-orange-400'>Opt - Color Picker</Link>
+            </h2>
+            <p className='text-zinc-500 pt-1'>Yes I know that Developer Tools exist, but this is so cool.</p>
+          </li>
         </ul>
       </div>
 
 
       <footer class="bg-white w-full mx-auto max-w-4xl absolute bottom-0">
           <div class="w-full p-4 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Alex Szczurek</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 Alex Szczurek. All Rights Reserved.
           </span>
           <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
               <li>
