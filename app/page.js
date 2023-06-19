@@ -81,6 +81,13 @@ export default function Home() {
             </li>
             <li className='py-6'>
               <h2>
+                <Image className='rounded-full align-middle mr-2' src="/img/logo-uncover.png" alt='uncoverUX logo' width={25} height={25}/>
+                <Link href="https://uncoverUX.buzz" target="_blank" className='hover:text-orange-400'>UX Research made simple</Link>
+              </h2>
+              <p className='text-zinc-500 pt-1'>Basic Guide to UX Research with possiblity to expand to full version</p>
+            </li>
+            <li className='py-6'>
+              <h2>
                 <Image className='rounded-full align-middle mr-2' src="/img/logo-opt.png" alt='OPT - color picker Logo' width={25} height={25}/>
                 <Link href="https://chrome.google.com/webstore/detail/opt-colour-picker/clhmnfanfdeoehleeeklflcdcjedefpd?hl=en-US" target="_blank" className='hover:text-orange-400'>Opt - Color Picker</Link>
               </h2>
@@ -97,6 +104,9 @@ export default function Home() {
             <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                 <li>
                     <a href="https://twitter.com/aliszu" class="mr-4 hover:underline md:mr-6 ">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://medium.com/@alexaszczurek" class="mr-4 hover:underline md:mr-6 ">Medium</a>
                 </li>
                 <li>
                     <a href="https://uncover.gumroad.com" class="mr-4 hover:underline md:mr-6">Gumroad shop</a>
