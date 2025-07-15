@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       <main className="flex flex-col flex-grow items-center justify-center px-4 sm:px-2 m-0 sm:m10">
-        <div className="text-left w-full h-full mx-auto max-w-[540px] relative main-content px-4 sm:px-2 py-4 sm:py-0">
+        <div className="text-left w-full h-full mx-auto max-w-[540px] relative main-content px-4 sm:px-2 py-8 sm:py-0">
           <div className="text-slate-600 text-sm">
             i'm just trying to figure stuff out,<br/> without losing myself in the process.
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
 
           <br />
 
-          <div className="text-slate-600 text-sm">
+          <div className="text-slate-400 text-sm">
             so i left
             <svg
               xmlns="http://www.w3.org/2000/svg"
