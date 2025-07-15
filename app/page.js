@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       <main className="flex flex-col flex-grow items-center justify-center px-4 sm:px-8 m-10 pb-10">
-        <div className="text-left w-full h-full mx-auto max-w-[540px] relative main-content px-4 sm:px-8 mt-10">
+        <div className="text-left w-full h-full mx-auto max-w-[540px] relative main-content px-4 sm:px-8">
           <div className="text-slate-600 text-sm">
             i'm just trying to figure stuff out,<br/> without losing myself in the process.
           </div>
