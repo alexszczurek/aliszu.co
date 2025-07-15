@@ -27,7 +27,7 @@ export default function Home() {
           <br />
 
           <div className="text-slate-600 text-sm">
-            in 2022, i launched uncoverUX on instagram and dropped three ebooks.
+            in 2022, i launched uncoverUX on instagram and dropped 3 ebooks.
             a year later, hopped on 𝕏 and co-founded baked studio, which blew up
             way faster than i ever thought.
           </div>
@@ -96,7 +96,6 @@ export default function Home() {
               [makeover]
             </a>{" "}
             brands. <br />
-            i breathe again. <br />
             not chasing unicorns out here. <br />
             just trying to make things that feel good. <br />
           </div>
