@@ -35,7 +35,7 @@ export default function Home() {
           <br />
 
           <div className="text-slate-600 text-sm">
-            but by mid-2024, i was kinda stuck in the mess i'd created.<br/> like..<br/>
+            but by mid-2024, i was kinda stuck in the mess in my head i created.<br/> like..<br/>
             trapped in my own damn dreams.
           </div>
 
