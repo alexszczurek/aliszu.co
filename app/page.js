@@ -90,7 +90,7 @@ export default function Home() {
             i cycle. <br />
             i run. <br />i{" "}
             <a
-              href="https://www.after.design"
+              href="https://breezy-channel-045311.framer.app"
               className="text-slate-400 hover:underline"
             >
               [makeover]
