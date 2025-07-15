@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       <main className="flex flex-col flex-grow items-center justify-center px-4 sm:px-2 m-0 sm:m10">
-        <div className="text-left w-full h-full mx-auto max-w-[540px] relative main-content px-4 sm:px-2 py-8 sm:py-0">
+        <div className="text-left w-full h-full mx-auto max-w-[540px] relative main-content px-4 sm:px-2 py-6 sm:py-0">
           <div className="text-slate-600 text-sm">
             i'm just trying to figure stuff out,<br/> without losing myself in the process.
           </div>
@@ -21,7 +21,10 @@ export default function Home() {
           <div className="text-slate-600 text-sm">
             tbh, i spent most of my twenties just grinding and exploring —
             kicked off with learning to code back in 2013, then dove into ux,
-            research, strategy, and finally started sharing what i'd picked up.
+            research, strategy, and finally landed my dream job as head of strategy and research. <br />
+            but guess what? <br />
+            it still was not it. <br/>
+            so i started sharing what i'd learned during my journey.
           </div>
 
           <br />
@@ -41,7 +44,7 @@ export default function Home() {
 
           <br />
 
-          <div className="text-slate-400 text-sm">
+          <div className="text-slate-600 text-sm">
             so i left
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +57,7 @@ export default function Home() {
                 marginBottom: "3px",
                 marginLeft: "4px",
               }}
-              fill="currentColor"
+              fill="#64748b"
             >
               <title>18 arrow persp door in</title>
               <g className="nc-icon-wrapper">
