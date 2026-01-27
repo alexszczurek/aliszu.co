@@ -93,13 +93,12 @@ export default function Home() {
             i cycle. <br />
             i run. <br />i{" "}
             <a
-              href="https://breezy-channel-045311.framer.app"
+              href="after.design"
               className="text-slate-400 hover:underline"
             >
               [makeover]
             </a>{" "}
             brands. <br />
-            not chasing unicorns out here. <br />
             just trying to make things that feel good. <br />
           </div>
           <br />
