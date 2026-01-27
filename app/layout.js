@@ -1,5 +1,5 @@
 import './globals.css'
-import { Analytics } from '@vercel/analytics/react';
+import AnalyticsWrapper from './analytics';
 
 export const metadata = {
   title: 'aliszu',
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-        <Analytics />
+        <AnalyticsWrapper />
       </body>
     </html>
   )
