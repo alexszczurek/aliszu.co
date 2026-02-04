@@ -93,12 +93,12 @@ export default function Home() {
             i cycle. <br />
             i run. <br />i{" "}
             <a
-              href="after.design"
+              href="https://after.design"
               className="text-slate-400 hover:underline"
             >
-              [makeover]
+              [strategically design]
             </a>{" "}
-            brands. <br />
+            products. <br />
             just trying to make things that feel good. <br />
           </div>
           <br />
